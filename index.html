@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Lab 4</title>
+</head>
+<body>
+
+<section class="separators">#1</section>
+  
+  <p class="total-money">Total: $0.00</p>
+  <button class="lime-cola btn" data-amount="2.00">Lime Cola $2.00 </button>
+  <button class="salted-peanuts btn" data-amount="3.00">Salted Peanuts $3.00</button>
+  <button class="chocolate-bar btn" data-amount="4.00">Chocolate Bar $4.00</button>
+  <button class="fruit-gummies btn" data-amount="6.00">Fruit Gummies $6.00</button>
+
+<section class="separators">#2</section>
+
+  <form class="coin-form">
+
+    <label for="number">How Many?</label>
+    <input type="number" name="number" id="numer" spaceholder="range please">
+    
+    <label for="coin">Which Coin</label>
+    <select name="coin" id="coin">
+      <option value="penny">Penny</option>
+      <option value="nickel">Nickel</option>
+      <option value="dime">Dime</option>
+      <option value="quarter">Quarter</option>
+    </select>
+
+    <button>Make Money</button>
+
+    <section class="coin-purse"></section>
+
+  </form>
+
+  <section class="separators">#3</section>
+ 
+  <div class="bulb start dark coin">Light Bulb</div>
+  <button class="on button">On</button>
+  <button class="off button">Off</button>
+  <button class="toggle button">Toggle</button>
+  <button class="end button">End</button>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
