@@ -13,6 +13,8 @@ border-radius: 50%;
 text-align: center;
 }
 
+/* make a <p> element and then flex it */
+
 .penny {
   background-color: brown;
   height: 50px;
